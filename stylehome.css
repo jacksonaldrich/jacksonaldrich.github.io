@@ -62,7 +62,7 @@ table {
 
 @media only screen and (max-width: 600px) {
     body {
-      font-size: medium;
+      font-size: large;
     }
   }
 
@@ -70,3 +70,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.fb-like {
+    text-align: center;
+}
+
+.fb_iframe_widget {
+    display: block !important;
+}
