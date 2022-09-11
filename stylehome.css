@@ -1,0 +1,72 @@
+h1 {
+    color: white;
+    background: red;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* period means looking for a class */
+.anynamehere {
+    text-decoration: underline;
+}
+
+.favorites {
+    color: black;
+}
+
+.menu {
+    background: black; 
+}
+
+body {
+    margin: 0px;
+}
+
+/* hover is called a psudoclass */
+li:hover {
+    background: red;
+}
+
+li {
+    background: whitesmoke;
+    display: inline-block;
+    border-radius: 10px;
+    /* inline-block makes the list look different */
+    width: 20%;
+    text-align: center;
+   
+       
+}
+
+ul {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.smallfont {
+    font-size: x-small;
+}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: medium;
+    }
+  }
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
